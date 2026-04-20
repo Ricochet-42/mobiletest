@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:proyect1/pages/Home.dart';
+import 'package:proyect1/pages/mision_vision.dart';
 import 'package:proyect1/pages/option_ab.dart';
+import 'package:proyect1/pages/option_imp.dart';
 import 'package:proyect1/pages/terminos.dart';
 
 void main() => runApp(const MyApp());
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'mainmenu':(BuildContext context) => Home(),
         'terminos':(BuildContext context) => Terminos(),
+        'misionvision':(BuildContext context) => PantallaMisionVision(),
         
         
       },
